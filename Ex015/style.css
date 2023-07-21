@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(251, 0, 0);
+    text-align: center;}
+h1 {
+   color: rgb(0, 127, 238);
+   font-size: 30px;
+   font-family: Georgia, 'Times New Roman', Times, serif;}
+h2 {
+    color: rgb(16, 171, 19);
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
+p {
+    color: aliceblue;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center; }

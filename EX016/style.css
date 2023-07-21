@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+body {
+    background-color:  black;
+}
+h1{
+    color: #0000ff;
+}
+p{
+    color: rgb(236, 217, 8);
+}
