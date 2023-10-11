@@ -1,0 +1,76 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink:wght@400;700&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+html, body{
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: white
+}
+
+:root {
+    --fonte1: 'DM Serif Display', serif;
+    --fonte2: 'Aref Ruqaa Ink', serif;
+}
+body{
+    background-color: black;
+}
+header{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    padding-bottom: 5%;
+    color: aliceblue;
+}
+header.principal{
+    background-image: url('../Imagem/workspace.jpg');
+}
+header.pag2{
+    background-image: url(../Imagem/nature.jpg);
+}
+header >h1{
+    padding-top: 5%;
+    font-size: 4em;
+    font-family: var(--fonte1);
+    font-variant: small-caps;
+    
+}
+header>p{
+        font-size: 2em;
+        font-family: var(--fonte2)
+}
+section{
+    padding: 5px;
+    padding-left: 30px;
+    margin: 10px;
+    text-shadow: 1px 1px 0 px;
+    box-shadow:  6px 6px 13px 0px black;
+    color: white;
+    line-height: 2em;
+  
+}
+section > p{
+    background-color: rgb(255, 255, 255);
+    width: 800px;
+    color: black;
+    text-align: justify;
+    font-size: 2em; 
+}
+section.imagem{
+    background-image: url(../Imagem/nature.jpg);
+    width: 500px;
+    height: 500px;
+}
+footer{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+    padding: auto;
+    font-size: 1.5em;
+}
