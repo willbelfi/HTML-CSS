@@ -7,42 +7,47 @@
     margin: 0px;
 }
 
-html, body{
+body, html{
     min-width: 100vw;
     min-height: 100vh;
-    background-color: white
+    background-color: black;
+       
 }
 
 :root {
     --fonte1: 'DM Serif Display', serif;
     --fonte2: 'Aref Ruqaa Ink', serif;
 }
-body{
-    background-color: black;
-}
+
 header{
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: black;
     padding-bottom: 5%;
     color: aliceblue;
+    border: 2px solid white;
+    border-radius: 24px;
 }
 header.principal{
-    background-image: url('../Imagem/workspace.jpg');
+    background-image: url("../Imagem/workspace.jpg");
+    /*background-image: url("https://gustavoguanabara.github.io/html-css/imagens/mascote.png");*/
+    background-repeat: no-repeat;
+    background-position: right top;
+    padding-right: 10px;
 }
-header.pag2{
-    background-image: url(../Imagem/nature.jpg);
-}
-header >h1{
+header>h1{
     padding-top: 5%;
     font-size: 4em;
     font-family: var(--fonte1);
     font-variant: small-caps;
-    
 }
 header>p{
         font-size: 2em;
         font-family: var(--fonte2)
+}
+header.pag2{
+    background-image: url(../Imagem/nature.jpg);
+    background-position: center center;
 }
 section{
     padding: 5px;
@@ -50,21 +55,27 @@ section{
     margin: 10px;
     text-shadow: 1px 1px 0 px;
     box-shadow:  6px 6px 13px 0px black;
-    color: white;
     line-height: 2em;
   
 }
 section > p{
     background-color: rgb(255, 255, 255);
-    width: 800px;
-    color: black;
+    width: 600px;
+    margin: auto;
+    color: rgb(0, 0, 0);
     text-align: justify;
-    font-size: 2em; 
+    font-size: 2em;
+    border: 2px solid rgb(133, 131, 131);
+    border-radius: 10px;
+    padding: 10px;
 }
 section.imagem{
-    background-image: url(../Imagem/nature.jpg);
-    width: 500px;
-    height: 500px;
+    /*background-image: url(../Imagem/nature.jpg);*/
+    width: 150px;
+    height: 50px;
+    border: 2px solid white;
+    text-align: center center;
+    border-radius: 10px;
 }
 footer{
     background-color: rgb(255, 255, 255);
